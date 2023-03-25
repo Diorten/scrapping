@@ -10,7 +10,7 @@ from urllib.parse import urlparse, parse_qs
 browser_options = Options()
 #browser_options.add_argument("--headless")
 driver = webdriver.Edge(options=browser_options)
-url = "https://edibazzar.pl/"
+url = "///?"
 driver.get(url)
 
 
